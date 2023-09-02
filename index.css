@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans';
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-color: rgb(42, 152, 189);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: auto, auto;
+}
+
+
+.top-section {
+    display: flex;
+    align-items: center;
+    background-image: url('./images/bg-pattern-card.svg');
+   
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#profile {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: white;
+    border: 5px solid white;
+
+}
+
+
+#name {
+    color: rgb(43, 41, 41);
+    letter-spacing: 0.3px;
+    font-size: 20px;
+
+}
+
+#age {
+    margin-left: 5px;
+    font-size: 20px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+#country {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+}
+
+.bottom-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0 auto;
+    
+}
+
+.footer {
+    background-color: white;
+    
+    border: white solid;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.figures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+    position: relative; 
+}
+
+.num {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.string {
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    text-align: center; 
+}
+
+.hr-line {
+    border: 0.4px solid hsl(227, 10%, 46%);
+    opacity: 0.1;
+}
+
+.attribution {
+    max-width: 320px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
